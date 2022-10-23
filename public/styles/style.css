@@ -1,0 +1,53 @@
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article.post {
+  display: flex;
+  justify-content: center;
+}
+
+p.card-body.post-content {
+  margin: 0px;
+}
+
+article {
+  display: flex;
+  background-color: rgb(204, 204, 204);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 500px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+div.card-header.dashboard-post {
+  text-align: center;
+}
+
+p.card-text.post-author {
+  font-style: italic;
+}
